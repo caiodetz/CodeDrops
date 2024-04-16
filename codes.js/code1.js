@@ -1,0 +1,2 @@
+// Código para dar like em todos os comentarios de um video do youtube (todos os comentarios carregados).
+Array.from(document.getElementsByClassName("yt-spec-button-shape-next yt-spec-button-shape-next--text yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-s yt-spec-button-shape-next--icon-button yt-spec-button-shape-next--override-small-size-icon")).map(b=>{if(b.attributes[2].value[0] == 'M'){b.click()}}) 
